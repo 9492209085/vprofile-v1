@@ -1,2 +1,2 @@
-FROM tomcat:9
-COPY /target/vprofile-v1.war /usr/local/tomcat/webapps .
+FROM tomcat:8
+COPY /target/*.war /usr/local/tomcat/webapps/docker.war
